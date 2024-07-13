@@ -1,3 +1,49 @@
 .header-top{
-    background-color: pink;
+    background-color: #EBEBEB;
+    height: 7.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    color: rgb(85, 85, 85); 
+}
+.address{
+    /* background-color: aqua; */
+    height: 85%;
+    width: 25%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.social{
+    display: flex;
+    /* background-color: aquamarine; */
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    height: 85%;
+    width: 25%;
+}
+.social a{
+    color: rgb(51, 51, 51);
+}
+@media screen and (max-width:500px) {
+    .header-top{
+        justify-content: space-evenly;
+        height: 8vh;
+        flex-direction: column;
+    }
+    .address{
+        justify-content: center;
+        width: 80%;
+        height: 40%;
+    }
+    .social{
+        justify-content: center;
+        width: 80%;
+        height: 40%;
+    }
 }
