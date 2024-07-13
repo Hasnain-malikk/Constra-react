@@ -1,3 +1,42 @@
 .navbar{
-    background-color: blanchedalmond;
+    background-color: #23282D;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-links{
+    /* background-color: darkgreen; */
+    height: 90%;
+    width: 53%;
+    margin-right: 250px;
+}
+.search{
+    cursor: pointer;
+    color: rgb(153, 153, 153);
+    /* background-color: darkkhaki; */
+    height: 90%;
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-links ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links ul li{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    list-style: none;
+}
+.nav-links ul li:hover{
+    color: #FFB600;
+}
+.nav-links ul a{
+    text-decoration: none;
 }
