@@ -16,6 +16,7 @@ const Navbar = () => {
           <a href=""><li>FEATURES</li></a>
           <a href=""><li>NEWS</li></a>
           <a href=""><li>CONTACT</li></a>
+          
         </ul>
       </div>
       <div className="search"><FontAwesomeIcon icon={faMagnifyingGlass} style={{fontSize:"15px",fontWeight:"900"}} /></div>
