@@ -17,7 +17,7 @@ const HeaderTop = () => {
       </div>
       <div className="social">
         <a href="https://web.facebook.com/malik.husnain.1612/" target='_blank'><FontAwesomeIcon icon={faFacebookF} style={{margin:"15px" }}/></a>
-        <a href="#"><FontAwesomeIcon icon={faTwitter} style={{margin:"15px"}}/></a>
+        <a href="#" target='_blank'><FontAwesomeIcon icon={faTwitter} style={{margin:"15px"}}/></a>
         <a href="https://www.instagram.com/malikhasnaindev/" target='_blank'><FontAwesomeIcon icon={faInstagram} style={{margin:"15px"}}/></a>
         <a href="https://github.com/Hasnain-malikk" target='_blank'><FontAwesomeIcon icon={faGithub} style={{margin:"15px"}}/></a>
       </div>
