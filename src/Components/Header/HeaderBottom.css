@@ -57,6 +57,7 @@
     border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 .box button{
+    cursor: pointer;
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
     font-weight: 700;
@@ -66,6 +67,11 @@
     color: white;
     width: 85%;
     height: 42%;
+    transition: background-color 0.3s, color 0.3s; /* Add transition */
+}
+.box button:hover{
+    background-color: #272D33;
+    color: #FFB600;
 }
 
 #box{
