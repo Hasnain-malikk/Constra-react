@@ -19,7 +19,7 @@ const HeaderBottom = () => {
           <div className="header-bottom-head" id='bx3'>Global Certificate</div>
           <div className="header-bottom-main" id='bx3'>ISO 9001:2017</div>
         </div>
-        <div className="box btn">
+        <div className="box btnn">
           <button>Get A Quote</button>
         </div>
       </div>

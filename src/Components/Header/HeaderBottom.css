@@ -80,6 +80,9 @@
 #bx3{
     padding-left: 20px;
 }
+.btnn{
+    margin-top: 5px;
+}
 @media screen and (max-width:500px) {
     .header-bottom{
         height:22vh;
