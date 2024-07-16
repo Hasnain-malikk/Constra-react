@@ -1,5 +1,4 @@
 #navLinks {
-    margin-left: -15px;
     margin-right: 10px;
     font-family: "Montserrat";
     color: white;
@@ -14,6 +13,11 @@
   
   .nav-link-custom {
     margin: 0 10px;
+  }
+  #new{
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
   }
   
   @media screen and (max-width: 500px) {
