@@ -1,9 +1,9 @@
 import React from 'react'
 import HeaderTop from './Components/Header/HeaderTop'
 import HeaderBottom from './Components/Header/HeaderBottom'
-// import Navbar from './Components/Navbar/Navbar'
 import BootStrapNav from './Components/Navbar/BootStrapNav'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './Components/Footer/Footer';
 
 
 const App = () => {
@@ -11,8 +11,8 @@ const App = () => {
     <div>
       <HeaderTop/>
       <HeaderBottom/>
-      {/* <Navbar/> */}
       <BootStrapNav/>
+      <Footer/>
     </div>
   )
 }
