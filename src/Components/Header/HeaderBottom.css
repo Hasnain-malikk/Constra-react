@@ -85,6 +85,7 @@
 }
 @media screen and (max-width:500px) {
     .header-bottom{
+        margin-bottom: 15px;
         height:22vh;
         flex-direction: column;
         justify-content: flex-start;

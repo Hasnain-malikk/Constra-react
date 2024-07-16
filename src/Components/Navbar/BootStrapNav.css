@@ -1,3 +1,38 @@
-.navLinks{
+#navLinks {
+    margin-left: -15px;
+    margin-right: 10px;
+    font-family: "Montserrat";
     color: white;
-}
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  #basic-nav-dropdown {
+    color: white;
+    margin: 0 10px;
+  }
+  
+  .nav-link-custom {
+    margin: 0 10px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    #navLinks {
+      margin: 0 20px;
+    }
+  
+    #basic-nav-dropdown {
+      margin: 0 20px;
+    }
+    #mdq{
+        background-color: #23282D;
+        position: absolute;
+        top: 74px;
+        left: 0;
+        width: 100%;
+    }
+    .navbar-toggler{
+        background-color: blue;
+    }
+  }
+  
