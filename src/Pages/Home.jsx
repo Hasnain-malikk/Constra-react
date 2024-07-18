@@ -1,9 +1,11 @@
 import React from 'react'
+import SwiperCarousel from '../Components/SwiperCarousel/SwiperCarousel'
+
 
 const Home = () => {
   return (
     <div>
-      this is home
+      <SwiperCarousel/>
     </div>
   )
 }

@@ -1,0 +1,20 @@
+.slide
+{
+    height: 110vh;
+    background-color: pink;
+}
+#s1{
+    background-image: url(/src/assets/slider-bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#s2{
+    background-image: url(/src/assets/slider-bg-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#s3{
+    background-image: url(/src/assets/slider-bg-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
