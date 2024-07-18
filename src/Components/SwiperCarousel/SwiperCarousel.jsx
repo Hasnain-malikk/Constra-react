@@ -20,14 +20,11 @@ const SwiperCarousel = () => {
       slidesPerView={1}
       autoplay={{
         delay: 3000,
-        disableOnInteraction: false,
+        disableOnInteraction: true,
       }}
       speed={700}
       navigation
       pagination={{ clickable: true }}
-      
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide id='s1' className='slide' >Slide 1</SwiperSlide>
       <SwiperSlide id='s2' className='slide' >Slide 2</SwiperSlide>

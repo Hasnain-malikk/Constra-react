@@ -18,3 +18,17 @@
     background-size: cover;
     background-position: center;
 }
+.swiper-button-next{
+    color: aqua;
+    background-color: antiquewhite;
+    padding: 10px;
+    height: 80px;
+    width: 60px;
+}
+.swiper-button-prev{
+    color: aqua;
+    background-color: antiquewhite;
+    height: 80px;
+    width: 60px;
+    border: none;
+}
