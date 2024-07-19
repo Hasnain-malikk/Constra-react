@@ -1,17 +1,17 @@
 .section-2{
     margin: 0 10px;
-    background-color: pink;
+    /* background-color: pink; */
     height: 80vh;
     display: flex;
     justify-content: space-evenly;
 }
 .section-2-left{
-    background-color: bisque;
+    /* background-color: bisque; */
     height: 100%;
     width: 42%;
 }
 .section-2-right{
-    background-color: azure;
+    /* background-color: azure; */
     height: 100%;
     width: 42%;
 }
@@ -76,4 +76,23 @@
     height: 100%;
     width: 72%;
     /* background-color: darkblue; */
+}
+.section-2-right-1{
+    margin: 10px 0;
+    color: rgb(33, 33, 33);
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    /* background-color: darkblue; */
+    /* height: 10%; */
+}
+.section-2-right-2{
+    margin: 0 0 16px;
+    line-height: 26px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+    /* background-color: rgb(156, 156, 194); */
+    /* height: 15%; */
 }

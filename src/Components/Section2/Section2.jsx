@@ -2,6 +2,7 @@ import React from 'react'
 import "./Section2.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrophy, faSliders, faThumbsUp, faUsers } from '@fortawesome/free-solid-svg-icons';
+import Accordians from '../Accordians/Accordians';
 
 const Section2 = () => {
   return (
@@ -38,7 +39,11 @@ const Section2 = () => {
             </div>
         </div>
       </div>
-      <div className="section-2-right"></div>
+      <div className="section-2-right">
+        <div className="section-2-right-1">OUR VALUES</div>
+        <div className="section-2-right-2">Minim Austin 3 wolf moon scenester aesthetic, umami odio pariatur bitters. Pop-up occaecat taxidermy street art, tattooed beard literally.</div>
+      <Accordians/>
+      </div>
     </div>
   )
 }

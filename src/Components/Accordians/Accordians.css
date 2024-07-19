@@ -1,0 +1,35 @@
+.accor{
+    background-color: pink;
+}
+#heade{
+    background-color: rgb(255, 234, 0);
+}
+.accordion-item:first-of-type>.accordion-header .accordion-button{
+    /* background-color: aqua; */
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(33, 37, 41);
+}
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: rgb(33, 37, 41);
+}
+.accordion-button{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: rgb(33, 37, 41);
+}
+.accordion-button:hover{
+    color: #ffb600;
+}
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed:hover{
+    color: #ffb600;
+}
+.accordion-item:first-of-type>.accordion-header .accordion-button:hover{
+    color: #ffb600;
+}
+
