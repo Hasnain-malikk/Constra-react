@@ -223,7 +223,7 @@
         visibility: hidden;
     } 
     .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
-        margin: 50px 0;
+        margin: 53px 0;
     }
     .s2{
         padding: 0 45px;
@@ -243,5 +243,20 @@
     .s3 button
     {
         margin-left: 0;
+    }
+    .carousel-bottom{
+        margin: 0 10%;
+        height: 18vh;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .carousel-bottom-text{
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    .carousel-bottom-button button{
+        font-size: 12px;
+
     }
 }
