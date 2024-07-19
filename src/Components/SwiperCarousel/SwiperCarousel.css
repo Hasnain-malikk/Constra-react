@@ -116,9 +116,20 @@
     background-color: #ffb600;
     padding: 12px 20px 10px;
     border: 2px solid #ffb600;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Add this line */
+}
+.Swiper-carousel-section4 button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
 }
 #btn2{
     background-color:transparent;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Add this line */
+}
+#btn2:hover{
+    background-color: #ffb600;
+    border: 2px solid #ffb600;
 }
 .s2{
     justify-content: center;
@@ -140,4 +151,9 @@
     background-color: #ffb600;
     padding: 12px 20px 10px;
     border: 2px solid #ffb600;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Add this line */
+}
+#btn3:hover{
+    background-color: black;
+    border: 2px solid black;
 }
