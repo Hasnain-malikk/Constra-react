@@ -123,3 +123,21 @@
 .s2{
     justify-content: center;
 }
+.s3{
+    padding-left: 90px;
+    justify-content: flex-start;
+}
+#btn3{
+    margin-left: 90px;
+    width: 18%;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 30px;
+    border: none;
+    color: white;
+    background-color: #ffb600;
+    padding: 12px 20px 10px;
+    border: 2px solid #ffb600;
+}

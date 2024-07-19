@@ -43,7 +43,14 @@ const SwiperCarousel = () => {
           <button id='btn2'>CONTACT NOW</button>
         </div>
       </SwiperSlide>
-      <SwiperSlide id='s3' className='slide' >Slide 3</SwiperSlide>
+      <SwiperSlide id='s3' className='slide' >
+          <button id='btn3'>WORLD CLASS SERVICE</button>
+      <div className="Swiper-carousel-section1 s3">WHEN SERVICE MATTERS</div>
+        <div className="Swiper-carousel-section2 s3">YOUR CHOICE IS SIMPLE</div>
+        <div className="Swiper-carousel-section4 s3">
+          <button id='btn2'>OUR SERVICE</button>
+        </div>
+      </SwiperSlide>
     </Swiper>
     </div>
   )
