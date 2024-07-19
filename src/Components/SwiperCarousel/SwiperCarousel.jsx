@@ -45,13 +45,13 @@ const SwiperCarousel = () => {
       <div className="Swiper-carousel-section1 s3">WHEN SERVICE MATTERS</div>
         <div className="Swiper-carousel-section2 s3">YOUR CHOICE IS SIMPLE</div>
         <div className="Swiper-carousel-section4 s3">
-          <button id='btn2'>OUR SERVICE</button>
+          <button id='btn2' className='btns3'>OUR SERVICE</button>
         </div>
       </SwiperSlide>
     </Swiper>
     <div className="carousel-bottom">
       <div className='carousel-bottom-text'>WE YOUR NEEDS ON CONSTRUCTION</div>
-      <div className="carousel-bottom-button">
+      <div className="carousel-bottom-button ">
         <button>REQUEST QUOTE</button>
       </div>
     </div>
