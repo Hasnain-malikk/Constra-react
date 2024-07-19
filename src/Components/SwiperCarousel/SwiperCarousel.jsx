@@ -7,11 +7,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import "./SwiperCarousel.css"
 
-
 const SwiperCarousel = () => {
   
-
-
   return (
     <div className='swiper-carousel'>
       <Swiper
