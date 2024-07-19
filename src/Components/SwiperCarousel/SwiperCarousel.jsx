@@ -35,7 +35,14 @@ const SwiperCarousel = () => {
           <button id='btn2'>LEARN MORE</button>
         </div>
       </SwiperSlide>
-      <SwiperSlide id='s2' className='slide' ></SwiperSlide>
+      <SwiperSlide id='s2' className='slide' >
+      <div className="Swiper-carousel-section1 s2">17 YEARS OF EXCELLENCE IN</div>
+        <div className="Swiper-carousel-section2 s2">CONSTRUCTION INDUSTRY</div>
+        <div className="Swiper-carousel-section4 s2">
+          <button>OUR SERVICES</button>
+          <button id='btn2'>CONTACT NOW</button>
+        </div>
+      </SwiperSlide>
       <SwiperSlide id='s3' className='slide' >Slide 3</SwiperSlide>
     </Swiper>
     </div>

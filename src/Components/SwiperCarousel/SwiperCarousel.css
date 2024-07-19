@@ -110,7 +110,7 @@
     font-weight: 700;
     border-radius: 3px;
     font-family: "Montserrat", sans-serif;
-    margin-left: 10px;
+    margin-left: 15px;
     border: none;
     color: white;
     background-color: #ffb600;
@@ -119,4 +119,7 @@
 }
 #btn2{
     background-color:transparent;
+}
+.s2{
+    justify-content: center;
 }
