@@ -49,6 +49,12 @@ const SwiperCarousel = () => {
         </div>
       </SwiperSlide>
     </Swiper>
+    <div className="carousel-bottom">
+      <div className='carousel-bottom-text'>WE YOUR NEEDS ON CONSTRUCTION</div>
+      <div className="carousel-bottom-button">
+        <button>REQUEST QUOTE</button>
+      </div>
+    </div>
     </div>
   )
 }

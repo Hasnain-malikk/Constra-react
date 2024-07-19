@@ -1,6 +1,6 @@
 .slide
 {
-    height: 120vh;
+    height: 115vh;
     /* background-color: pink; */
     display: flex;
     flex-direction: column;
@@ -156,4 +156,32 @@
 #btn3:hover{
     background-color: black;
     border: 2px solid black;
+}
+.carousel-bottom{
+    border-radius: 5px;
+    position: relative;
+    margin-top: -55px;
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 6%;
+    height: 19vh;
+    background-color: #ffb600;
+}
+.carousel-bottom-text{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.carousel-bottom-button button{
+    border: none;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 20px 10px;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 3px;
 }
