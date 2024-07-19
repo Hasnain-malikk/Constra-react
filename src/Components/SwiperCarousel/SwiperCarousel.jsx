@@ -26,8 +26,16 @@ const SwiperCarousel = () => {
       navigation
       pagination={{ clickable: true }}
     >
-      <SwiperSlide id='s1' className='slide' >Slide 1</SwiperSlide>
-      <SwiperSlide id='s2' className='slide' >Slide 2</SwiperSlide>
+      <SwiperSlide id='s1' className='slide' >
+        <div className="Swiper-carousel-section1">MEET OUR ENGINEERS</div>
+        <div className="Swiper-carousel-section2">WE BELIEVE SUSTAINABILITY</div>
+        <div className="Swiper-carousel-section3">We will deal with your failure that determines how you achieve success.</div>
+        <div className="Swiper-carousel-section4">
+          <button>GET FREE QUOTE</button>
+          <button id='btn2'>LEARN MORE</button>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide id='s2' className='slide' ></SwiperSlide>
       <SwiperSlide id='s3' className='slide' >Slide 3</SwiperSlide>
     </Swiper>
     </div>
