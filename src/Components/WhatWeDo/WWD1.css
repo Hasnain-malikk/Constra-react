@@ -1,0 +1,31 @@
+.wwd1{
+    display: flex;
+    /* background-color: pink; */
+    height: 30%;
+}
+.wwd1-left{
+    height: 60%;
+    width: 25%;
+    /* background-color: aqua; */
+}
+.wwd1-right{
+    height: 100%;
+    width: 75%;
+    /* background-color: rgb(0, 111, 111); */
+}
+.wwd1-head{
+    font-size: 16px;
+    font-weight: 700;
+    /* background-color: coral; */
+    height: 20%;
+}
+.wwd1-head:hover{
+    color: rgb(255, 182, 0);
+    cursor: pointer;
+}
+.wwd1-text{
+    font-size: 15px;
+    font-weight: 400;
+    /* background-color: darkcyan; */
+    height: 80%;
+}
