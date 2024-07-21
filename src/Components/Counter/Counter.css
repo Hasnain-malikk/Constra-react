@@ -5,3 +5,10 @@
     display: flex;
     justify-content: center;
 }
+@media screen and (max-width:500px) {
+    .counter{
+        height: 110vh;
+        flex-direction: column;
+        margin: 0 0 15% ;
+    }
+}
