@@ -1,0 +1,39 @@
+.count{
+    background-color: antiquewhite;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.count-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 30%;
+}
+.count-up{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(155, 127, 255);
+    height: 20%;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+.count-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(20, 20, 0);
+    height: 13%;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 182, 0);
+    
+}

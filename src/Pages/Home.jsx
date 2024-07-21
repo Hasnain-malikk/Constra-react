@@ -1,6 +1,7 @@
 import React from 'react'
 import SwiperCarousel from '../Components/SwiperCarousel/SwiperCarousel'
 import Section2 from '../Components/Section2/Section2'
+import Counter from '../Components/Counter/Counter'
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
     <div>
       <SwiperCarousel/>
       <Section2/>
+      <Counter/>
     </div>
   )
 }

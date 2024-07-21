@@ -1,9 +1,14 @@
 import React from 'react'
+import "./Counter.css"
+import Count from './Count'
 
 const Counter = () => {
   return (
     <div className='counter'>
-      this is counter
+      <Count/>
+      <Count/>
+      <Count/>
+      <Count/>
     </div>
   )
 }
