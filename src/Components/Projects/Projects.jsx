@@ -11,12 +11,12 @@ const Projects = () => {
       </div>
       <div className="projects-nav">
         <Link to="/" className='project-link'>SHOW ALL</Link>
-        <Link to="/" className='project-link'>COMMERCIAL</Link>
-        <Link to="/" className='project-link'>EDUACTION</Link>
-        <Link to="/" className='project-link'>GOVERNMENT</Link>
-        <Link to="/" className='project-link'>INFRASTRUCTURE</Link>
-        <Link to="/" className='project-link'>RESIDENTIAL</Link>
-        <Link to="/" className='project-link'>HEALTHCARE</Link>
+        <Link to="/commercial" className='project-link'>COMMERCIAL</Link>
+        <Link to="/eduaction" className='project-link'>EDUACTION</Link>
+        <Link to="/government" className='project-link'>GOVERNMENT</Link>
+        <Link to="/infrastructure" className='project-link'>INFRASTRUCTURE</Link>
+        <Link to="/residential" className='project-link'>RESIDENTIAL</Link>
+        <Link to="/healthcare" className='project-link'>HEALTHCARE</Link>
       </div>
     </div>
   )
