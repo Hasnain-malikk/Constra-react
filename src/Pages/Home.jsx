@@ -4,6 +4,7 @@ import SwiperCarousel from '../Components/SwiperCarousel/SwiperCarousel';
 import Section2 from '../Components/Section2/Section2';
 import Counter from '../Components/Counter/Counter';
 import WhatWeDo from '../Components/WhatWeDo/WhatWeDo';
+import HappyClient from '../Components/HappyClient/HappyClient';
 // import Projects from '../Components/Projects/Projects';
 // import Commercial from "../Components/ProjectPages/Commerical";
 // import ShowAll from "../Components/ProjectPages/ShowAll";
@@ -31,6 +32,7 @@ const Home = () => {
           <Route path="healthcare" element={<Healthcare />} />
         </Route>
       </Routes> */}
+      <HappyClient/>
     </div>
   );
 };
