@@ -1,6 +1,6 @@
-import React from 'react'
-import "./Projects.css"
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Outlet, Link } from 'react-router-dom';
+import "./Projects.css";
 
 const Projects = () => {
   return (
@@ -11,15 +11,18 @@ const Projects = () => {
       </div>
       <div className="projects-nav">
         <Link to="/" className='project-link'>SHOW ALL</Link>
-        <Link to="/commercial" className='project-link'>COMMERCIAL</Link>
-        <Link to="/eduaction" className='project-link'>EDUACTION</Link>
-        <Link to="/government" className='project-link'>GOVERNMENT</Link>
-        <Link to="/infrastructure" className='project-link'>INFRASTRUCTURE</Link>
-        <Link to="/residential" className='project-link'>RESIDENTIAL</Link>
-        <Link to="/healthcare" className='project-link'>HEALTHCARE</Link>
+        <Link to="commercial" className='project-link'>COMMERCIAL</Link>
+        <Link to="education" className='project-link'>EDUCATION</Link>
+        <Link to="government" className='project-link'>GOVERNMENT</Link>
+        <Link to="infrastructure" className='project-link'>INFRASTRUCTURE</Link>
+        <Link to="residential" className='project-link'>RESIDENTIAL</Link>
+        <Link to="healthcare" className='project-link'>HEALTHCARE</Link>
+      </div>
+      <div className="project-outlet">
+        <Outlet />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

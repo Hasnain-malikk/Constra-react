@@ -18,13 +18,13 @@
 .projects-nav{
     display: flex;
     align-items: center;
-    /* background-color: pink; */
+    background-color: #F9F9F9;
     height: 9vh;
     border-bottom: 3px solid #ffb600;
     margin: 0 6%;
 }
 .project-link{
-    /* background-color: #ffb600; */
+    /* background-color: #F9F9F9; */
     padding: 16px 25px;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
