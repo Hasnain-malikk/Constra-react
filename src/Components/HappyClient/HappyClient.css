@@ -1,3 +1,110 @@
 .happy-client{
+    /* background-color: rgb(218, 0, 196); */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.testi{
+    background-color: antiquewhite;
+    height: 75vh;
+    width: 42vw;
+}
+.client{
+    height: 85vh;
+    width: 42vw;
+    background-color: pink;
+}
+.help{
+    height: 25vh;
+    width: 35vw;
+    background-color: brown;
+}
+.newsletter{
+    height: 25vh;
+    width: 65vw;
+    background-color: burlywood;
+}
+.happy-client-section-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.happy-client-section-2{
+    display: flex;
+}
+.testi h1{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 40px;
+}
+.testi section{
+    display: flex;
+    height: 285px;
+    background-color: rgb(34, 184, 59);
+}
+.testimonialIcon{
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffc009;
+    height: 100%;
+    width: 12%;
     background-color: aqua;
 }
+.testimonialMain{
+    margin: 30px 35px 0px 0px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(85, 85, 85);
+    height: 100%;
+    width: 85%;
+    background-color: blueviolet;
+}
+.person{
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    margin-top: 30px;
+    height: 85px;
+    background-color: rgb(189, 226, 43);
+}
+.slidee{
+    display: flex;
+}
+.person-img
+{
+    border-radius: 3px;
+    height: 90%;
+    width: 20%;
+    background-color: blue;
+}
+.person-text{
+    padding: 0 0 0 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    width: 70%;
+    background-color: rgb(146, 146, 196);
+}
+.person-img img{
+    border-radius: 8%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.person-text-heading{
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 182, 0);
+}
+.person-text-name{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+/* .swip2 .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    margin: 0 0;
+} */

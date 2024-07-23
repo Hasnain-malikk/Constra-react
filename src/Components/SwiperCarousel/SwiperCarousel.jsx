@@ -11,7 +11,7 @@ const SwiperCarousel = () => {
   
   return (
     <div className='swiper-carousel'>
-      <Swiper
+      <Swiper className='swip1'
       modules={[Navigation, Pagination, A11y, Autoplay]}
       spaceBetween={0}
       slidesPerView={1}

@@ -59,7 +59,7 @@
 .swiper-pagination-bullet:hover{
     background-color: #ffb600;
 }
-.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+.swip1 .swiper-pagination-bullets{
     margin: 65px 0;
 }
 .Swiper-carousel-section1{
