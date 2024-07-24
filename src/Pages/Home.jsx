@@ -5,6 +5,7 @@ import Section2 from '../Components/Section2/Section2';
 import Counter from '../Components/Counter/Counter';
 import WhatWeDo from '../Components/WhatWeDo/WhatWeDo';
 import HappyClient from '../Components/HappyClient/HappyClient';
+import Posts from '../Components/Posts/Posts';
 // import Projects from '../Components/Projects/Projects';
 // import Commercial from "../Components/ProjectPages/Commerical";
 // import ShowAll from "../Components/ProjectPages/ShowAll";
@@ -33,6 +34,7 @@ const Home = () => {
         </Route>
       </Routes> */}
       <HappyClient/>
+      <Posts/>
     </div>
   );
 };
