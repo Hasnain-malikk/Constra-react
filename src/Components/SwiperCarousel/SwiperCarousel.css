@@ -186,6 +186,9 @@
     font-family: "Montserrat", sans-serif;
     border-radius: 3px;
 }
+.swip1 .swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 5px;
+}
 @media screen and (max-width:500px) {
     .slide{
         height: 45vh;

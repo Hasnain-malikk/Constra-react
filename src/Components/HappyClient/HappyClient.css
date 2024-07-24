@@ -5,12 +5,12 @@
     margin-top: 10px;
 }
 .testi{
-    background-color: antiquewhite;
-    height: 75vh;
+    /* background-color: antiquewhite; */
+    height: 67vh;
     width: 42vw;
 }
 .client{
-    height: 85vh;
+    height: 67vh;
     width: 42vw;
     background-color: pink;
 }
@@ -25,6 +25,7 @@
     background-color: burlywood;
 }
 .happy-client-section-1{
+    margin-top: 70px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -34,12 +35,12 @@
 .testi h1{
     font-size: 24px;
     font-weight: 700;
-    margin: 0 0 40px;
+    margin: 0 0 20px;
 }
 .testi section{
     display: flex;
     height: 285px;
-    background-color: rgb(34, 184, 59);
+    /* background-color: rgb(34, 184, 59); */
 }
 .testimonialIcon{
     font-size: 50px;
@@ -47,7 +48,7 @@
     color: #ffc009;
     height: 100%;
     width: 12%;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .testimonialMain{
     margin: 30px 35px 0px 0px;
@@ -58,15 +59,15 @@
     color: rgb(85, 85, 85);
     height: 100%;
     width: 85%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 .person{
     align-items: center;
     /* justify-content: center; */
     display: flex;
-    margin-top: 30px;
-    height: 85px;
-    background-color: rgb(189, 226, 43);
+    margin-top: 20px;
+    height: 95px;
+    /* background-color: rgb(189, 226, 43); */
 }
 .slidee{
     display: flex;
@@ -76,7 +77,7 @@
     border-radius: 3px;
     height: 90%;
     width: 20%;
-    background-color: blue;
+    /* background-color: blue; */
 }
 .person-text{
     padding: 0 0 0 20px;
@@ -85,7 +86,7 @@
     justify-content: center;
     height: 90%;
     width: 70%;
-    background-color: rgb(146, 146, 196);
+    /* background-color: rgb(146, 146, 196); */
 }
 .person-img img{
     border-radius: 8%;
@@ -105,6 +106,9 @@
     font-family: "Open Sans", sans-serif;
     font-style: normal;
 }
-/* .swip2 .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
-    margin: 0 0;
-} */
+.swip2 .swiper-pagination-bullets{
+    margin: -10px 0;
+}
+.swip2 .swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 6px;
+}

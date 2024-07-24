@@ -5,6 +5,8 @@ import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import p1 from "/ReactJs/constra-react/src/assets/testimonial-1.png"
+import p2 from "/ReactJs/constra-react/src/assets/testimonial-2.png"
+import p3 from "/ReactJs/constra-react/src/assets/testimonial-3.png"
 import { Pagination } from 'swiper/modules';
 
 const HappyClient = () => {
@@ -19,8 +21,8 @@ const HappyClient = () => {
                  spaceBetween={0}
                  slidesPerView={1}
                  pagination={{ clickable: true }}
-                 onSlideChange={() => console.log('slide change')}
-                 onSwiper={(swiper) => console.log(swiper)}
+                 speed={800}
+                 loop={true}
                >
                  <SwiperSlide className='slidee'>
                     <div className="testimonialIcon">
@@ -40,8 +42,46 @@ const HappyClient = () => {
                       </div>
                       </div>
                  </SwiperSlide>
-                 <SwiperSlide>Slide 2</SwiperSlide>
-                 <SwiperSlide>Slide 3</SwiperSlide>
+                 <SwiperSlide className='slidee'>
+                 <div className="testimonialIcon">
+                         <FontAwesomeIcon icon={faQuoteLeft} />
+                    </div>
+                    <div className="testimonialMain"> 
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci done idunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitoa tion ullamco laboris
+                      nisi aliquip consequat.
+                    
+                      <div className="person">
+                        <div className="person-img">
+                            <img src={p2} alt="" />
+                        </div>
+                        <div className="person-text">
+                            <div className='person-text-heading'>WELDON CASH</div>
+                            <div className="person-text-name">CFO, First Choice</div>
+                        </div>
+                      </div>
+                      </div>
+                 </SwiperSlide>
+                 <SwiperSlide className='slidee'>
+                 <div className="testimonialIcon">
+                         <FontAwesomeIcon icon={faQuoteLeft} />
+                    </div>
+                    <div className="testimonialMain"> 
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci done idunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitoa tion ullamco laboris
+                      nisi aliquip consequat.
+                    
+                      <div className="person">
+                        <div className="person-img">
+                            <img src={p3} alt="" />
+                        </div>
+                        <div className="person-text">
+                            <div className='person-text-heading'>MINTER PUCHAN</div>
+                            <div className="person-text-name">Director, ATK</div>
+                        </div>
+                      </div>
+                      </div>
+                 </SwiperSlide>
             </Swiper>
         </section>
       </div>

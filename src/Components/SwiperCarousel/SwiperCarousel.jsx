@@ -19,6 +19,7 @@ const SwiperCarousel = () => {
         delay: 3000,
         disableOnInteraction: true,
       }}
+      loop={true}
       speed={700}
       navigation
       pagination={{ clickable: true }}
