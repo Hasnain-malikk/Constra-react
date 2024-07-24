@@ -86,3 +86,34 @@
     transition: 350ms;
     font-size: 14px
 }
+@media screen and (max-width:500px) {
+    .posts{
+        height: 155vh;
+        margin-bottom: 70px;
+    }
+ .posts-main{
+    flex-direction: column;
+ }   
+ .post1{
+    margin-bottom: 40px;
+    width: 90%;
+ }
+ .posts-header{
+    height: 15%;
+ }
+ .posts-body{
+    height: 85%;
+ }
+ .posts-main{
+    height: 100%;
+ }
+ .posts-btn{
+    height: 5%;
+ }
+ .posts-header-1{
+    font-size: 15px;
+ }
+ .posts-header-2{
+    font-size: 30px;
+ }
+}
