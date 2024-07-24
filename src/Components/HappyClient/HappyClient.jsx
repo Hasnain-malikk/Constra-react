@@ -8,6 +8,12 @@ import p1 from "/ReactJs/constra-react/src/assets/testimonial-1.png"
 import p2 from "/ReactJs/constra-react/src/assets/testimonial-2.png"
 import p3 from "/ReactJs/constra-react/src/assets/testimonial-3.png"
 import { Pagination } from 'swiper/modules';
+import c1 from "/ReactJs/constra-react/src/assets/happy-client-1.png"
+import c2 from "/ReactJs/constra-react/src/assets/happy-client-2.png"
+import c3 from "/ReactJs/constra-react/src/assets/happy-client-3.png"
+import c4 from "/ReactJs/constra-react/src/assets/happy-client-4.png"
+import c5 from "/ReactJs/constra-react/src/assets/happy-client-5.png"
+import c6 from "/ReactJs/constra-react/src/assets/happy-client-6.png"
 
 const HappyClient = () => {
   return (
@@ -85,11 +91,44 @@ const HappyClient = () => {
             </Swiper>
         </section>
       </div>
-      <div className="client">clients</div>
+      <div className="client">
+        <h1>HAPPY CLIENTS</h1>
+        <div className="client-logo">
+          <div className="logo1" id='l1' >
+            <img src={c1} alt="" />
+          </div>
+          <div className="logo1" id='l2' >
+            <img src={c2} alt="" />
+          </div>
+          <div className="logo1" id='l3' >
+            <img src={c3} alt="" />
+          </div>
+          <div className="logo1" id='l4' >
+            <img src={c4} alt="" />
+          </div>
+          <div className="logo1" id='l5' >
+            <img src={c5} alt="" />
+          </div>
+          <div className="logo1" id='l6' >
+            <img src={c6} alt="" />
+          </div>
+        </div>
+      </div>
     </div>
     <div className="happy-client-section-2">
-      <div className="help">help</div>
-      <div className="newsletter">newsletter</div>
+      <div className="help">
+        <div className="help1">CAN WE HELP?</div>
+        <div className="help2">(+9) 847-291-4353</div>
+      </div>
+      <div className="newsletter">
+        <div className="newsletter-1">
+          <div className="newsletter-1-1">NEWSLETTER SIGN-UP</div>
+          <div className="newsletter-1-2">Latest updates and news</div>
+        </div>
+        <div className="newsletter-2">
+          <input placeholder='Enter Your Email and hit enter' type="text" name="" id="" />
+        </div>
+      </div>
     </div>
     </div>
   )

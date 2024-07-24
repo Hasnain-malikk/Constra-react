@@ -10,19 +10,22 @@
     width: 42vw;
 }
 .client{
-    height: 67vh;
+    height: 50vh;
     width: 42vw;
-    background-color: pink;
+    /* background-color: pink; */
 }
 .help{
-    height: 25vh;
+    height: 20vh;
     width: 35vw;
-    background-color: brown;
+    background-color: #FFB600;
 }
 .newsletter{
-    height: 25vh;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 20vh;
     width: 65vw;
-    background-color: burlywood;
+    background-color: #252525;
 }
 .happy-client-section-1{
     margin-top: 70px;
@@ -32,7 +35,7 @@
 .happy-client-section-2{
     display: flex;
 }
-.testi h1{
+.testi h1, .client h1{
     font-size: 24px;
     font-weight: 700;
     margin: 0 0 20px;
@@ -111,4 +114,62 @@
 }
 .swip2 .swiper-pagination-bullets .swiper-pagination-bullet{
     margin: 0 6px;
+}
+.logo1{
+    filter: grayscale(100%);
+}
+.client-logo{
+    padding: 20px 0;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: grid;
+    height: 100%;
+    /* background-color: #ffc009; */
+}
+.logo1{
+    display: flex;
+    align-items: center;
+    border: 1px solid #dadada;
+    padding: 0 30px;
+    height: 90%;
+    width: 95%;
+}
+.logo1 img{
+    width: 100%;
+    object-fit: cover;
+}
+.help{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.help1{
+    font-size: 18px;
+    font-weight: 700;
+}
+.help2{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+.newsletter-1-1{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+.newsletter-1-2{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.newsletter-2 input {
+    padding: 0 15px;
+    width: 380px;
+    background: none;
+    font-size: 12px;
+    height: 45px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
