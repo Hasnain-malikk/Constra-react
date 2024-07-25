@@ -1,0 +1,64 @@
+.personal-team{
+    /* margin-top: -10px; */
+    background-color: aqua;
+    height: 95vh;
+}
+.personal-team-heading{
+   
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    background-color: antiquewhite;
+}
+.personal-team-body{
+    padding: 0 70px 0 70px;
+    height: 75%;
+    background-color: brown;
+}
+.personal-team-heading p{
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+.personal-team-heading h1{
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 900;
+}
+.swiper4{
+    height: 95%;
+}
+.swiper4-slide{
+    height: 75%;
+    background-color: coral;
+}
+.swiper4 .swiper-button-prev {
+    border-radius: 4px;
+    top: 88%;
+    left: 45.8%;
+    height: 40px;
+    width: 41px;
+    transition: background-color 0.4s ease, color 0.5s ease; /* Added color transition */
+}
+.swiper4 .swiper-button-next {
+    border-radius: 4px;
+    top: 88%;
+    right: 45.8%;
+    height: 40px;
+    width: 41px;
+    transition: background-color 0.4s ease, color 0.5s ease; 
+}
+.swiper4 .swiper-button-next:after{
+    font-size: 15px;
+    color: black;
+}
+.swiper4 .swiper-button-prev:after{
+    font-size: 15px;
+    color: black;
+}
+.swiper4 .swiper-button-next:hover:after,
+.swiper4 .swiper-button-prev:hover:after {
+  color: white; /* Change icon color on hover */
+}
