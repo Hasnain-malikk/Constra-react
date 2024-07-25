@@ -1,7 +1,8 @@
 .personal-team{
-    /* margin-top: -10px; */
-    background-color: aqua;
+    margin-top: -10px;
+    /* background-color: aqua; */
     height: 95vh;
+    margin-bottom: 40px;
 }
 .personal-team-heading{
    
@@ -10,12 +11,12 @@
     justify-content: center;
     align-items: center;
     height: 25%;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 .personal-team-body{
-    padding: 0 70px 0 70px;
+    padding: 0 80px 0 80px;
     height: 75%;
-    background-color: brown;
+    /* background-color: brown; */
 }
 .personal-team-heading p{
     margin-bottom: 0;
@@ -23,16 +24,18 @@
     font-weight: 300;
 }
 .personal-team-heading h1{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 36px;
     font-weight: 900;
 }
 .swiper4{
-    height: 95%;
+    padding-top: 25px;
+    height: 100%;
 }
 .swiper4-slide{
+    overflow: hidden;
     height: 75%;
-    background-color: coral;
+    /* background-color: coral; */
 }
 .swiper4 .swiper-button-prev {
     border-radius: 4px;
@@ -61,4 +64,85 @@
 .swiper4 .swiper-button-next:hover:after,
 .swiper4 .swiper-button-prev:hover:after {
   color: white; /* Change icon color on hover */
+}
+.swiper4-slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.pt-content{
+    /* overflow: hidden; */
+    position: absolute;
+    top: 74%;
+    left: 0;
+    padding: 15px 25px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    transition: 350ms;
+}
+.swiper4-slide:hover .pt-content{
+    top: 0;
+    padding: 45px 25px;
+}
+#pt-s1{
+    background-image: url(/src/assets/team1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#pt-s2{
+    background-image: url(/src/assets/team2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#pt-s3{
+    background-image: url(/src/assets/team3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#pt-s4{
+    background-image: url(/src/assets/team4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#pt-s5{
+    background-image: url(/src/assets/team5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#pt-s6{
+    background-image: url(/src/assets/team6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.pt-content-1{
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: normal;
+    color: #ffb600;
+}
+.pt-content-2{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.pt-content-3{
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased !important;
+    line-height: 26px;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 1rem;
+}
+.pt-icon{
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.pt-icon:hover{
+    color: #ffb600;
 }
