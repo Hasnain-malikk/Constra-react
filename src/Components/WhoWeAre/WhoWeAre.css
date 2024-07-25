@@ -113,5 +113,42 @@
     background-color: #ffb600;
 }
 @media screen and (max-width:500px) {
-    
+    .who-we-are{
+        flex-direction: column;
+        height: 95vh;
+        margin: 40px 0;
+    }
+    .who-we-are-1{
+        width: 90%;
+    }
+    .who-we-are-2{
+        margin: 0;
+        height: 55%;
+        width: 90%;
+    }
+    .who-we-are-para1{
+        margin: 0;
+    }
+    .who-we-are-quote{
+        padding-left: 15px;
+        font-size: 12px;
+    }
+    .icn{
+        padding-left: 5px;
+    }
+    .who-we-are-para2{
+        height: 22%;
+    }
+    .swiper3 .swiper-button-next{
+        visibility:visible;
+    }
+    .swiper3 .swiper-button-prev{
+        visibility: visible;
+    }
+    .who-we-are-slide-1 h1,.who-we-are-slide-2 h1,.who-we-are-slide-3 h1{
+        font-size: 23px;
+    }
+    .who-we-are-head-1{
+        margin-bottom: 20px;
+    }
 }

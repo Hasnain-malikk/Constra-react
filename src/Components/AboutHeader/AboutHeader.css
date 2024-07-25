@@ -24,5 +24,11 @@
     .about-header{
         height: 30vh;
     }
+    .about-heading{
+        font-size: 50px;
+    }
+    .about-breadcrum{
+        font-size: 10px;
+    }
     
 }
