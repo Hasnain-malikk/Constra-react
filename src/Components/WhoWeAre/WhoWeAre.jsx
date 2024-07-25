@@ -4,11 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import s1 from "/ReactJs/constra-react/src/assets/swiper3-1.jpg"
-import s2 from "/ReactJs/constra-react/src/assets/swiper3-2.jpg"
-import s3 from "/ReactJs/constra-react/src/assets/swiper3-3.jpg"
-import { Navigation} from 'swiper/modules';
+import { EffectFade,Navigation,Autoplay} from 'swiper/modules';
 import 'swiper/css/navigation';
+import 'swiper/css/effect-fade';
 
 const WhoWeAre = () => {
   return (
@@ -26,21 +24,28 @@ const WhoWeAre = () => {
       </div>
       <div className="who-we-are-2">
       <Swiper className='swiper3'
-      modules={[Navigation]}
+      modules={[EffectFade,Navigation,Autoplay]}
       spaceBetween={0}
       slidesPerView={1}
+      effect={'fade'}
+      loop={true}
+      speed={800}
+      autoplay={{
+        delay: 3500,
+        disableOnInteraction: true,
+      }}
       navigation
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      <SwiperSlide className='who-we-are-slide'>
-        <img src={s1} alt="" />
+      <SwiperSlide className='who-we-are-slide-1'>
+        <h1>LEADERSHIP</h1>
       </SwiperSlide>
-      <SwiperSlide className='who-we-are-slide'>
-        <img src={s2} alt="" />
+      <SwiperSlide className='who-we-are-slide-3'>
+        <h1>RELATIONSHIPS</h1>
       </SwiperSlide>
-      <SwiperSlide className='who-we-are-slide'>
-        <img src={s3} alt="" />
+      <SwiperSlide className='who-we-are-slide-2'>
+        <h1>PERFORMANCE</h1>
       </SwiperSlide>
     </Swiper>
       </div>
