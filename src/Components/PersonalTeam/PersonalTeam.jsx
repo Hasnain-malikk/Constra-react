@@ -24,6 +24,17 @@ const PersonalTeam = () => {
         spaceBetween={25}
         slidesPerView={4}
         navigation
+        breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            500: {
+              slidesPerView: 1,
+            },
+            501: {
+              slidesPerView: 4,
+            }
+          }}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
         >

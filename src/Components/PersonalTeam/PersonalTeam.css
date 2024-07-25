@@ -146,3 +146,43 @@
 .pt-icon:hover{
     color: #ffb600;
 }
+@media screen and (max-width:500px) {
+    .personal-team-body{
+        padding: 0 30px;
+        height: 83%;
+    }
+    .swiper4 .swiper-button-next{
+        visibility:visible;
+    }
+    .swiper4 .swiper-button-prev{
+        visibility: visible;
+    }
+    .pt-content-3,.pt-content-1,.pt-content-2,.pt-content-4{
+        text-align: center;
+    }
+    .swiper4-slide:hover .pt-content{
+        top: 55%;
+        padding: 23px 25px;
+    }
+    .pt-content{
+        padding-top: 23px;
+        top: 55%;
+    }
+    .swiper4 .swiper-button-next{
+        right: 36%;
+    }
+    .swiper4 .swiper-button-prev{
+        left: 36%;
+    }
+    .personal-team-heading h1{
+        font-size: 25px;
+    }
+    .personal-team-heading{
+        height: 17%;
+    }
+    .personal-team{
+        height: 85vh;
+    }
+    
+    
+}
