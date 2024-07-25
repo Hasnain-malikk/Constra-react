@@ -1,0 +1,28 @@
+.about-header{
+    background-color: crimson;
+    height: 53vh;
+    background-image: url(/src/assets/about-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-heading{
+    color: white;
+    font-size: 58px;
+    font-weight: 900;
+}
+.about-breadcrum{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+@media screen and (max-width:500px) {
+    .about-header{
+        height: 30vh;
+    }
+    
+}
