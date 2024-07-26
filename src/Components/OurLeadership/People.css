@@ -1,11 +1,12 @@
 .people{
-    background-color: rgb(32, 166, 166);
+    margin-bottom: 2%;
+    /* background-color: rgb(32, 166, 166); */
     height: 90vh;
     width: 21vw;
 }
 .people-img{
     height: 60%;
-    background: #f30000;
+    /* background: #f30000; */
 }
 .people-img img{
     height: 100%;
@@ -38,4 +39,19 @@
 }
 .dark{
     color: #999;
+}
+@media screen and (max-width:500px) {
+    .people{
+        margin-bottom: 20px;
+        width: 90vw;
+        height: 65vh;
+    }
+    .people-body{
+        margin: 20px 0 40px 0;
+        height: 25%;
+    }
+    .people-img{
+        height: 70%;
+    }
+    
 }
