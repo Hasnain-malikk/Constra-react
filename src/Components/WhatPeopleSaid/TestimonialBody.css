@@ -1,0 +1,43 @@
+.testimonial-body{
+    background-color: coral;
+    width: 28vw;
+    height: 62vh;
+}
+.testimonial-body-text{
+    text-align: center;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(102, 102, 102);
+    background-color: crimson;
+    height: 40%;
+    border: 1px solid #ffb600;
+}
+.testimonial-body-person{
+    background-color: cornflowerblue;
+    height: 60%;
+}
+.testimonial-body-person-1{
+    height: 45%;
+    background-color: darkblue;
+}
+.testimonial-body-person-2{
+    background-color: cornflowerblue;
+    height: 15%;
+}
+.testimonial-body-person-3{
+    background-color: yellowgreen;
+    height: 15%;
+}
+.testimonial-body-person-1-1{
+    border-radius: 5px;
+    height: 90%;
+    width: 26%;
+}
+.testimonial-body-person-1-1 img{
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
