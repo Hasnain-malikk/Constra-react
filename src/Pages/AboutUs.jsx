@@ -7,7 +7,7 @@ import PersonalTeam from '../Components/PersonalTeam/PersonalTeam'
 const AboutUs = () => {
   return (
     <div>
-      <AboutHeader/>
+      <AboutHeader heading1 = "ABOUT US" heading2 = "HOME / COMPANY / ABOUT US" />
       <WhoWeAre/>
       <Counter/>
       <PersonalTeam/>
