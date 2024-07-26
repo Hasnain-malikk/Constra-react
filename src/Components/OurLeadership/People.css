@@ -1,0 +1,41 @@
+.people{
+    background-color: rgb(32, 166, 166);
+    height: 90vh;
+    width: 21vw;
+}
+.people-img{
+    height: 60%;
+    background: #f30000;
+}
+.people-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.people-body{
+    height: 40%;
+    /* background-color: rgb(23, 37, 37); */
+}
+.people-body-1{
+    margin-top: 13px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #212121;
+    margin-bottom: 5px;
+}
+.people-body-2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(136, 136, 136);
+    margin-bottom: 5px;
+}
+.people-body-3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    color: rgb(85, 85, 85);
+}
+.dark{
+    color: #999;
+}

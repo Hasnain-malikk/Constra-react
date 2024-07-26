@@ -1,3 +1,11 @@
-.our-leadership{
-    background-color: pink;
+.our-leadership-heading{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 800;
+}
+.our-leadership-body{
+    background-color: aqua;
 }
