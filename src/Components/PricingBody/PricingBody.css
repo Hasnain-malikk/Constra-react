@@ -1,0 +1,21 @@
+.pricing-body{
+    background-color: darkblue;
+}
+.pricing-body-heading1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 60px;
+}
+.pricing-body-heading2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 46px;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 70px;
+}
