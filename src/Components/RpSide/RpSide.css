@@ -1,0 +1,47 @@
+.rp-side{
+    padding: 50px;
+    /* background-color: coral; */
+    width: 37vw;
+}
+.rp-side1{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    border-left: 3px solid #ffb600;
+    padding-left: 15px;
+}
+.rp-side2{
+    height: 45%;
+    /* background-color: darkred; */
+}
+.rp-content{
+    padding: 15px 5px;
+    /* margin: 10px; */
+    display: flex;
+    height: 30%;
+    /* background: #131bb4; */
+}
+.rp-content-img{
+    margin-right: 15px;
+    width: 30%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.rp-content-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.rp-content-text{
+    font-size: 13px;
+    font-weight: 600;
+    width: 70%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+.rp-content-text:hover{
+    color: rgb(255, 182, 0);
+}
+.bdrrr{
+    border-bottom: 1px solid #dadada;
+}
