@@ -1,7 +1,7 @@
 .testimonial-body{
     /* background-color: coral; */
     width: 28vw;
-    height: 62vh;
+    /* height: 62vh; */
 }
 .testimonial-body-text{
     text-align: center;
@@ -84,4 +84,10 @@
     left: 0;
     margin: 0 auto;
     right: 0;
+}
+@media screen  and (max-width:500px) {
+    .testimonial-body{
+        width: 85vw;
+        margin-bottom: 45px;
+    }
 }

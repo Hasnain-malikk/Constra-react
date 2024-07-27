@@ -5,7 +5,7 @@ import WhatPeopleSaid from '../Components/WhatPeopleSaid/WhatPeopleSaid'
 const Testimonials = () => {
   return (
     <div>
-      <AboutHeader heading1 = "TESTIMONIAL" heading2 = "HOME / COMPANY / TESTIMONIAL" />
+      <AboutHeader heading1 = "TESTIMONIALS" heading2 = "HOME / COMPANY / TESTIMONIAL" />
       <WhatPeopleSaid/>
     </div>
   )
