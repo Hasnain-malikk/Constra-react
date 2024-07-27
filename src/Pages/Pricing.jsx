@@ -1,9 +1,10 @@
 import React from 'react'
+import AboutHeader from '../Components/AboutHeader/AboutHeader'
 
 const Pricing = () => {
   return (
     <div>
-      this is Pricing
+      <AboutHeader heading1 = "PRICING" heading2 = "HOME / COMPANY / PRICING" />
     </div>
   )
 }
