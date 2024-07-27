@@ -8,6 +8,8 @@ const WhatPeopleSaid = () => {
       <div className="our-leadership-heading">WHAT PEOPLE SAID</div>
       <div className="people-said-main">
         <TestimonialBody/>
+        <TestimonialBody/>
+        <TestimonialBody/>
       </div>
     </div>
   )
