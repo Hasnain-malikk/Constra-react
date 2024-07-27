@@ -11,10 +11,11 @@
     padding-left: 15px;
 }
 .rp-side2{
-    height: 45%;
+    height: 48%;
     /* background-color: darkred; */
 }
 .rp-content{
+    cursor: pointer;
     padding: 15px 5px;
     /* margin: 10px; */
     display: flex;
@@ -44,4 +45,11 @@
 }
 .bdrrr{
     border-bottom: 1px solid #dadada;
+}
+@media screen and (max-width:500px) {
+    .rp-side{
+        width: 100vw;
+        padding-top: 10px;
+        padding: 10px 30px 30px 30px;
+    }
 }

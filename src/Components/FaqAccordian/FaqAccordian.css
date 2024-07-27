@@ -1,7 +1,7 @@
 .faq-accordian{
-   padding: 50px;
+   padding: 50px 0 50px 50px;
     /* background-color: crimson; */
-    height: 140vh;
+    /* height: 140vh; */
     width: 63vw;
 }
 .faq-head1{
@@ -28,4 +28,10 @@
    font-size: 24px;
     font-weight: 700;
     margin: 30px 0 30px;
+ }
+ @media screen and (max-width:500px) {
+   .faq-accordian{
+      width: 100vw;
+      padding: 30px;
+   }
  }
