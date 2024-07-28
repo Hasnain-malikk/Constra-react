@@ -25,3 +25,13 @@
 .service-main-link:hover{
     color: rgb(255, 182, 0);
 }
+@media screen and (max-width:500px) {
+    .service-main{
+        width: 90vw;
+    }
+    .service-main-link{
+        padding-left: 81px;
+        margin-top: 25px;
+        margin-bottom: 70px;
+    }
+}
