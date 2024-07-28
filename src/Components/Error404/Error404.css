@@ -40,3 +40,19 @@
     background-color:#111111 ;
     
 }
+@media screen and (max-width:500px) {
+    .error-main1{
+        font-size: 150px;
+        margin-bottom: 0;
+    }
+    .error-main2{
+        font-size: 22px;
+        /* margin-bottom : 14px ; */
+    }
+    .error-main3{
+        font-size: 12px;
+    }
+    .error-404{
+        padding: 50px 0;
+    }
+}
