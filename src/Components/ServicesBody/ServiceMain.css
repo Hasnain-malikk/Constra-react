@@ -1,3 +1,27 @@
 .service-main{
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
+    width: 28vw;
+}
+.service-img{
+    width: 100%;
+    margin-bottom: 23px;
+}
+.service-img img{
+    width: 100%;
+}
+.service-text{
+    width: 100%;
+    /* background-color: yellowgreen; */
+}
+.service-main-link{
+    margin-bottom: 55px;
+    padding-left: 85px;
+    cursor: pointer;
+    color: rgb(85, 85, 85);
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.service-main-link:hover{
+    color: rgb(255, 182, 0);
 }
