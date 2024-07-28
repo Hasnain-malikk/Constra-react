@@ -1,9 +1,12 @@
 import React from 'react'
+import AboutHeader from '../Components/AboutHeader/AboutHeader'
+import NewsBody from '../Components/NewsBody/NewsBody'
 
 const News = () => {
   return (
     <div>
-      this is news
+      <AboutHeader heading1 = "NEWS" heading2 = "HOME / COMPANY / NEWS" />
+      <NewsBody/>
     </div>
   )
 }
