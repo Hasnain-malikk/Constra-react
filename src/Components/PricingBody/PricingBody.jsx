@@ -8,7 +8,9 @@ const PricingBody = () => {
       <div className="pricing-body-heading1">GRAB THE PACKAGES</div>
       <div className="pricing-body-heading2">PRICING</div>
       <div className="pricing-body-main">
-        <PricingCard/>
+        <PricingCard heading="BUILDING REMODELS" price="$89.9" />
+        <PricingCard orange="newclr" heading="RENOVATION" price="$179.9" />
+        <PricingCard heading="HOME CONSTRUCTION" price="$279.9" />
       </div>
     </div>
   )
