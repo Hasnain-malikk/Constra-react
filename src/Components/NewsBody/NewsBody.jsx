@@ -75,6 +75,20 @@ const NewsBody = () => {
                 </div>
                 </div>
             </div>
+            <div className="body-comments">
+                <h3>07 Comments</h3>
+                <div className="comment-body">
+                    <div className="comment-body-left">
+                        <img src={p2} alt="" />
+                    </div>
+                    <div className="comment-body-right">
+                        <div className="comment-body-right1">
+                        <div className="comment-head">Michelle Aimber</div>
+                        <div className="comment-head-end">January 17, 2016 at 1:38 pm</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
       <div className="news-body2">ss</div>
