@@ -151,7 +151,7 @@ const NewsBody = () => {
                 <div className="tag1 tag2">Structure</div>
             </div>
             <div className="news-body2-2">
-                <div className="categorey">
+                <div className="categorey mtp">
                 ARCHIVES
                 </div>
                 <div className="tag1">Feburay 2016</div>
@@ -159,6 +159,19 @@ const NewsBody = () => {
                 <div className="tag1">December 2015</div>
                 <div className="tag1">November 2015</div>
                 <div className="tag1 tag2">October 2015</div>
+            </div>
+            <div className="news-body2-3">
+            <div className="categorey mtp">
+                TAGS
+                </div>
+                <button className="meta-btn tag3">Construction</button>
+                <button className="meta-btn tag3">Design</button>
+                <button className="meta-btn tag3">Project</button>
+                <button className="meta-btn tag3">Building</button>
+                <button className="meta-btn tag3">Finance</button>
+                <button className="meta-btn tag3">Safety</button>
+                <button className="meta-btn tag3">Contracting</button>
+                <button className="meta-btn tag3">Planning</button>
             </div>
         </div>
       </div>
