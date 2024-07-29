@@ -26,7 +26,7 @@ const NewsBody = () => {
                <div className='post-meta1'>&nbsp;&nbsp;News&nbsp;&nbsp;&nbsp;</div>
                &nbsp;&nbsp;&nbsp;<FontAwesomeIcon className='metaIcn' icon={faCalendar} />
                <div className='post-meta1'>&nbsp;&nbsp;July 28, 2024&nbsp;&nbsp;&nbsp;</div>
-               &nbsp;&nbsp;&nbsp;<FontAwesomeIcon className='metaIcn' icon={faComment} />
+               &nbsp;&nbsp;&nbsp;<FontAwesomeIcon className='metaIcn mm' icon={faComment} />
                <div className='post-meta1 last'>&nbsp;&nbsp;03 Comments&nbsp;&nbsp;&nbsp;</div>
             </div>
             <div className="entry-heading">
