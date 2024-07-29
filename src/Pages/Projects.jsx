@@ -1,9 +1,10 @@
 import React from 'react'
+import AboutHeader from '../Components/AboutHeader/AboutHeader'
 
 const Projects = () => {
   return (
     <div>
-      this is projects
+      <AboutHeader heading1 = "PROJECT" heading2 = "HOME / COMPANY / PROJECTS" />
     </div>
   )
 }
