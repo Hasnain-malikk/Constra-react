@@ -26,11 +26,13 @@
     display: flex;
 }
 .front{
+    opacity: 0;
     position: absolute;
     z-index: 3;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
+    transition: opacity 400ms;
 }
 .plus-btn button{
     display: flex;
@@ -56,14 +58,15 @@
     scale: 1;
 }
 .project-name{
-    transition: opacity 400ms;
+    cursor: pointer;
+    transition: top 400ms;
     opacity: 0;
     margin-left: 25px;
     /* display: flex;
     justify-content: center;
     align-items: center; */
     position: absolute;
-    top: 38%;
+    top: 44%;
     /* left: 50%; */
     font-size: 20px;
     font-weight: 700;
@@ -76,17 +79,22 @@
     opacity: 0;
     margin-left: 25px;
     position: absolute;
-    top: 53%;
+    top: 59%;
     padding: 8px;
     background-color: #ffb600;
     font-size: 10px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
-    transition: opacity 400ms;
+    transition: top 400ms;
 }
 .project-single:hover .project-type{
     opacity: 1;
+    top: 53%;
 }
 .project-single:hover .project-name{
+    opacity: 1;
+    top: 38%;
+}
+.project-single:hover .front{
     opacity: 1;
 }
