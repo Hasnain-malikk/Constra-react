@@ -2,7 +2,7 @@ import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import "./Projects.css";
 
-const Projects = () => {
+const Projectss = () => {
   return (
     <div className='projects'>
       <div className="recent-projects">
@@ -25,4 +25,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Projectss;

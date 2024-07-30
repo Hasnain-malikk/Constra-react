@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+// import { Routes, Route } from 'react-router-dom';
 import SwiperCarousel from '../Components/SwiperCarousel/SwiperCarousel';
 import Section2 from '../Components/Section2/Section2';
 import Counter from '../Components/Counter/Counter';
