@@ -1,3 +1,92 @@
-.project-single{
-    background-color: aquamarine;
+.project-single {
+    position: relative;
+    width: 33.33%;
+    height: 55vh;
+    overflow: hidden;
+}
+
+.project-single::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/src/assets/project1.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+}
+
+.project-single:hover::before {
+    transform: scale(1.1); /* Zoom effect on the background image */
+}
+
+.project-page-body{
+    display: flex;
+}
+.front{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.plus-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color: #ffb600;
+    height: 38px;
+    width: 40px;
+    scale: 0;
+    transition: scale  400ms;
+}
+.plus-btn{
+    width: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: flex-end;
+}
+.project-single:hover .plus-btn button{
+    scale: 1;
+}
+.project-name{
+    transition: opacity 400ms;
+    opacity: 0;
+    margin-left: 25px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: absolute;
+    top: 38%;
+    /* left: 50%; */
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.project-name:hover{
+    color: #ffb600;
+}
+.project-type{
+    opacity: 0;
+    margin-left: 25px;
+    position: absolute;
+    top: 53%;
+    padding: 8px;
+    background-color: #ffb600;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    transition: opacity 400ms;
+}
+.project-single:hover .project-type{
+    opacity: 1;
+}
+.project-single:hover .project-name{
+    opacity: 1;
 }

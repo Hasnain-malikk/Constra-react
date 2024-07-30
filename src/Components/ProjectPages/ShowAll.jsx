@@ -1,9 +1,12 @@
 import React from 'react'
+import ProjectSingle from '../ProjectSingle/ProjectSingle'
 
 const ShowAll = () => {
   return (
-    <div>
-      this is ShowAll
+    <div className='project-page-body'>
+      <ProjectSingle/>
+      {/* <ProjectSingle/>
+      <ProjectSingle/> */}
     </div>
   )
 }
