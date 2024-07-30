@@ -5,8 +5,8 @@ const ShowAll = () => {
   return (
     <div className='project-page-body'>
       <ProjectSingle/>
-      {/* <ProjectSingle/>
-      <ProjectSingle/> */}
+      <ProjectSingle/>
+      <ProjectSingle/>
     </div>
   )
 }

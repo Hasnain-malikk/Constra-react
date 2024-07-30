@@ -114,8 +114,12 @@
     visibility: visible;
 }
 .sheet-content img{
-    /* z-index: 9; */
     margin-left: 100px;
-    /* height: 50%; */
     width: 73%;
+}
+@media screen and (max-width:500px) {
+    .sheet-content img{
+        width: 100%;
+        margin-left: 0;
+    }
 }
