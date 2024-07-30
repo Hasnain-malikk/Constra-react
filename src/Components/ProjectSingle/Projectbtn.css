@@ -1,0 +1,19 @@
+.project-btn{
+    display: flex;
+    justify-content: center;
+    /* background-color: coral; */
+    margin: 50px 0 80px 0;
+}
+.project-btn button{
+    transition: background-color 0.3s;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color: #ffb600;
+    padding: 12px 20px 10px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.project-btn button:hover{
+    background-color: #111;
+}

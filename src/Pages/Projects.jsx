@@ -9,6 +9,7 @@ import Government from "../Components/ProjectPages/Government";
 import Infrastructure from "../Components/ProjectPages/Infrastructure";
 import Residential from "../Components/ProjectPages/Residential";
 import Healthcare from "../Components/ProjectPages/Healthcare";
+import ProjectBtn from '../Components/ProjectSingle/ProjectBtn';
 
 const Projects = () => {
   return (
@@ -26,6 +27,7 @@ const Projects = () => {
           <Route path="residential" element={<Residential />} />
           <Route path="healthcare" element={<Healthcare />} />
         </Routes>
+        <ProjectBtn/>
       </div>
     </div>
   );
