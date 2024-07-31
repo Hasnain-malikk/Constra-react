@@ -13,3 +13,11 @@
     font-size: 36px;
     font-weight: 900;
 }
+@media screen and (max-width:500px) {
+    .pro-head{
+        margin: 0;
+    }
+    .pro-head2{
+        font-size: 30px;
+    }
+}

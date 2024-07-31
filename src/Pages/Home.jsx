@@ -7,7 +7,6 @@ import WhatWeDo from '../Components/WhatWeDo/WhatWeDo';
 import HappyClient from '../Components/HappyClient/HappyClient';
 import Posts from '../Components/Posts/Posts';
 import ProjectHeading from '../Components/ProjectSingle/ProjectHeading';
-import ProjectBody from '../Components/ProjectBody/ProjectBody';
 import Commercial from "../Components/ProjectPages/Commerical";
 import ShowAll from "../Components/ProjectPages/ShowAll";
 import Education from "../Components/ProjectPages/Eduaction";
@@ -16,6 +15,8 @@ import Healthcare from "../Components/ProjectPages/Healthcare";
 import Infrastructure from "../Components/ProjectPages/Infrastructure";
 import Residential from "../Components/ProjectPages/Residential";
 import ProjectBtn from '../Components/ProjectSingle/ProjectBtn';
+import ProjectHomeBody from '../Components/ProjectBody/ProjectHomeBody';
+import ScrollToTop from 'react-scroll-to-top';
 
 const Home = () => {
   return (
@@ -25,7 +26,7 @@ const Home = () => {
       <Counter />
       <WhatWeDo />
       <ProjectHeading/>
-      <ProjectBody/>
+      <ProjectHomeBody/>
       <div className="project-content">
         <Routes>
           <Route path="/" element={<Navigate to="showall" />} />
@@ -41,6 +42,9 @@ const Home = () => {
         <ProjectBtn/>
       <HappyClient/>
       <Posts/>
+      <div>
+      <ScrollToTop style={{backgroundColor:"#ffb600",height:"50px",width:"50px"}} smooth />
+    </div>
     </div>
   );
 };

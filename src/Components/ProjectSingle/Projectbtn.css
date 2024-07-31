@@ -17,3 +17,8 @@
 .project-btn button:hover{
     background-color: #111;
 }
+@media screen and (max-width:500px) {
+    .project-btn{
+        margin-bottom: 50px;
+    }
+}

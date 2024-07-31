@@ -3,6 +3,7 @@ import WhoWeAre from '../Components/WhoWeAre/WhoWeAre'
 import AboutHeader from '../Components/AboutHeader/AboutHeader'
 import Counter from '../Components/Counter/Counter'
 import PersonalTeam from '../Components/PersonalTeam/PersonalTeam'
+import ScrollToTop from 'react-scroll-to-top'
 
 const AboutUs = () => {
   return (
@@ -11,6 +12,7 @@ const AboutUs = () => {
       <WhoWeAre/>
       <Counter/>
       <PersonalTeam/>
+      <ScrollToTop style={{backgroundColor:"#ffb600",height:"50px",width:"50px"}} smooth/>
     </div>
   )
 }

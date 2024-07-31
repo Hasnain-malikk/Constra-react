@@ -6,7 +6,7 @@ import { useInView } from 'react-intersection-observer';
 const Count = ({ icon, number, text }) => {
   const { ref, inView } = useInView({
     triggerOnce: true, // Trigger only once
-    threshold: 0.1, // Trigger when 10% of the component is in view
+    threshold: 0.3, // Trigger when 10% of the component is in view
   });
 
   return (
@@ -15,7 +15,7 @@ const Count = ({ icon, number, text }) => {
         <img src={icon} alt="" />
       </div>
       <div className="count-up">
-        {inView ? <CountUp end={number} duration={4} separator="" /> : null}
+        {inView ? <CountUp end={number} duration={5} separator="" /> : null}
       </div>
       <div className="count-text">{text}</div>
     </div>

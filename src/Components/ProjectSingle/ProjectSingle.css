@@ -137,6 +137,16 @@
     margin-left: 100px;
     width: 73%;
 }
+.pnn{
+    padding-bottom: 70px;
+}
+#scroll-to-top{
+    color: #ffb600;
+    background-color: #ffb600;
+    height: 36px;
+    width: 38px;
+    border-radius: 3px;
+}
 /* Add this to your CSS file */
 
 /* @keyframes scaleIn {

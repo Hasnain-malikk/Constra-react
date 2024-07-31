@@ -10,10 +10,11 @@ import Infrastructure from "../Components/ProjectPages/Infrastructure";
 import Residential from "../Components/ProjectPages/Residential";
 import Healthcare from "../Components/ProjectPages/Healthcare";
 import ProjectBtn from '../Components/ProjectSingle/ProjectBtn';
+import ScrollToTop from 'react-scroll-to-top';
 
 const Projects = () => {
   return (
-    <div style={{paddingBottom:"70px"}}>
+    <div className='pnn'>
       <AboutHeader heading1="PROJECT" heading2="HOME / COMPANY / PROJECTS" />
       <ProjectBody />
       <div className="project-content">
@@ -28,6 +29,7 @@ const Projects = () => {
           <Route path="healthcare" element={<Healthcare />} />
         </Routes>
         <ProjectBtn/>
+        <ScrollToTop style={{backgroundColor:"#ffb600",height:"50px",width:"50px"}} smooth/>
       </div>
     </div>
   );
