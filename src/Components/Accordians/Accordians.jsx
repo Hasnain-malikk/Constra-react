@@ -3,7 +3,7 @@ import "./Accordians.css"
 
 function Accordians() {
   return (
-    <Accordion>
+    <Accordion defaultActiveKey="0" >
       <Accordion.Item eventKey="0">
         <Accordion.Header id='heade' >SAFETY</Accordion.Header>
         <Accordion.Body>

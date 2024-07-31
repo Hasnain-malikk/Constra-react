@@ -10,7 +10,7 @@ const OurPeople = () => {
     <div>
       <AboutHeader heading1="OUR TEAM" heading2="HOME / COMPANY / OUR TEAM"/>
       <OurLeadership/>
-      <ScrollToTop style={{backgroundColor:"#252525",height:"40px",width:"36px",borderRadius:"4px"}} smooth component={<FontAwesomeIcon style={{color:"#ffb600",fontSize:"16px",fontWeight:"900"}} icon={faAnglesUp} />} />
+      <ScrollToTop style={{backgroundColor:"#252525",height:"36px",width:"36px",borderRadius:"4px"}} smooth component={<FontAwesomeIcon style={{color:"#ffb600",fontSize:"16px",fontWeight:"900"}} icon={faAnglesUp} />} />
     </div>
   )
 }
