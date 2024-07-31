@@ -27,7 +27,7 @@
 }
 .project-content{
     margin: 0 80px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 @media screen and (max-width:500px) {
     .p-link{

@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import "./ProjectSingle.css";
-import p1 from "/ReactJs/constra-react/src/assets/project1.jpg"
 
-const ProjectSingle = () => {
+const ProjectSingle = ({bgimg,img,name,type}) => {
   const [isSheetVisible, setIsSheetVisible] = useState(false);
 
   const handleButtonClick = () => {
@@ -14,20 +13,20 @@ const ProjectSingle = () => {
   };
 
   return (
-    <div className='project-single'>
+    <div className='project-single' id={bgimg} >
       <div className="front">
         <div className="plus-btn">
           <button onClick={handleButtonClick}>+</button>
         </div>
         <div className="project-name">
-          CAPITAL TELTWAY BUILDING
+          {name}
         </div>
-        <span className='project-type'>COMMERCIAL INTERIORS</span>
+        <span className='project-type'>{type}</span>
       </div>
       {isSheetVisible && (
         <div className={`sheet ${isSheetVisible ? 'active' : ''}`} onClick={handleCloseSheet}>
           <div className="sheet-content">
-            <img src={p1} alt="" />
+            <img src={img} alt="" />
           </div>
         </div>
       )}
