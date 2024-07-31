@@ -86,6 +86,9 @@
     transition: 350ms;
     font-size: 14px
 }
+.posts-btn button:hover{
+    background-color: #111;
+}
 @media screen and (max-width:500px) {
     .posts{
         height: 155vh;
