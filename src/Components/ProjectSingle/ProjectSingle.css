@@ -141,4 +141,9 @@
         width: 100%;
         margin-left: 0;
     }
+    .project-single{
+        margin-bottom: 30px;
+        width: 100%;
+        height: 40vh;
+    }
 }
