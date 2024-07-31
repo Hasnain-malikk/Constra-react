@@ -1,19 +1,19 @@
 import React from 'react'
 import ProjectSingle from '../ProjectSingle/ProjectSingle'
 import p3 from "/ReactJs/constra-react/src/assets/project3.jpg"
-import { useGSAP } from '@gsap/react';
-import gsap from 'gsap';
+// import { useGSAP } from '@gsap/react';
+// import gsap from 'gsap';
 
 
 const Commerical = () => {
 
-  useGSAP(()=>{
-    gsap.from('.pc',{
-      x:700,
-      duration:0.3,
-      delay:0.1
-    })
-  })
+  // useGSAP(()=>{
+  //   gsap.from('.project-single',{
+  //     x:700,
+  //     duration:0.3,
+  //     delay:0.1
+  //   })
+  // })
 
   return (
     <div className='project-page-body pc'>

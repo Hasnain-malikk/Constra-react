@@ -137,6 +137,54 @@
     margin-left: 100px;
     width: 73%;
 }
+/* Add this to your CSS file */
+
+/* @keyframes scaleIn {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+   */
+  /* #bg1, #bg2, #bg3, #bg4, #bg5, #bg6 {
+    animation-duration: 0.3s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+  }
+  
+  #bg1 {
+    animation-name: scaleIn;
+    animation-duration: 0.2s;
+  }
+  
+  #bg2 {
+    animation-name: scaleIn;
+    animation-duration: 0.22s;
+  }
+  
+  #bg3 {
+    animation-name: scaleIn;
+    animation-duration: 0.24s;
+  }
+  
+  #bg4 {
+    animation-name: scaleIn;
+    animation-duration: 0.26s;
+  }
+  
+  #bg5 {
+    animation-name: scaleIn;
+    animation-duration: 0.28s;
+  }
+  
+  #bg6 {
+    animation-name: scaleIn;
+    animation-duration: 0.3s;
+  } */
+  
 @media screen and (max-width:500px) {
     .sheet-content img{
         width: 100%;
