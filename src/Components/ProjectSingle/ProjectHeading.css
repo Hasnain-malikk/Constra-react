@@ -1,0 +1,15 @@
+.pro-head{
+    /* background-color: darkcyan; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 90px 0 50px;
+}
+.pro-head1{
+    font-size: 18px;
+    font-weight: 300;
+}
+.pro-head2{
+    font-size: 36px;
+    font-weight: 900;
+}

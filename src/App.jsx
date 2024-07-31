@@ -26,7 +26,7 @@ const App = () => {
        <HeaderBottom/>
        <BootStrapNav/>
         <Routes>
-         <Route path="/" element={<Home/>} /> 
+         <Route path="/*" element={<Home/>} /> 
          <Route path="/aboutus" element={<AboutUs/>} /> 
          <Route path="/ourpeople" element={<OurPeople/>} /> 
          <Route path="/testimonials" element={<Testimonials/>} /> 
