@@ -13,7 +13,7 @@ import ProjectBtn from '../Components/ProjectSingle/ProjectBtn';
 
 const Projects = () => {
   return (
-    <div>
+    <div style={{overflowX:"hidden"}}>
       <AboutHeader heading1="PROJECT" heading2="HOME / COMPANY / PROJECTS" />
       <ProjectBody />
       <div className="project-content">

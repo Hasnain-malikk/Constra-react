@@ -41,6 +41,7 @@
 }
 
 .project-page-body{
+    /* overflow-x: hidden; */
     display: flex;
     flex-wrap: wrap;
 }

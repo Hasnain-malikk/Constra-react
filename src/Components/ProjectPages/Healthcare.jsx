@@ -2,6 +2,8 @@ import React from 'react'
 import ProjectSingle from '../ProjectSingle/ProjectSingle'
 import p1 from "/ReactJs/constra-react/src/assets/project1.jpg"
 import p2 from "/ReactJs/constra-react/src/assets/project2.jpg"
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
 
 
 const Healthcare = () => {

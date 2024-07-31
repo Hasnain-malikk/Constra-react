@@ -2,6 +2,8 @@ import React from 'react'
 import ProjectSingle from '../ProjectSingle/ProjectSingle'
 import p4 from "/ReactJs/constra-react/src/assets/project4.jpg"
 import p5 from "/ReactJs/constra-react/src/assets/project5.jpg"
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
 
 const Eduaction = () => {
   return (

@@ -6,8 +6,44 @@ import p3 from "/ReactJs/constra-react/src/assets/project3.jpg"
 import p4 from "/ReactJs/constra-react/src/assets/project4.jpg"
 import p5 from "/ReactJs/constra-react/src/assets/project5.jpg"
 import p6 from "/ReactJs/constra-react/src/assets/project6.jpg"
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
 
 const ShowAll = () => {
+
+  useGSAP(()=>{
+    gsap.from('#bg1',{
+      scale:0,
+      duration:0.2,
+      delay:0.1
+    });
+    gsap.from('#bg2',{
+      scale:0,
+      duration:0.22,
+      delay:0.1
+    });
+    gsap.from('#bg3',{
+      scale:0,
+      duration:0.24,
+      delay:0.1
+    });
+    gsap.from('#bg4',{
+      scale:0,
+      duration:0.26,
+      delay:0.1
+    });
+    gsap.from('#bg5',{
+      scale:0,
+      duration:0.28,
+      delay:0.1
+    });
+    gsap.from('#bg6',{
+      scale:0,
+      duration:0.3,
+      delay:0.1
+    });
+  })
+
   return (
     <div className='project-page-body'>
       <ProjectSingle bgimg="bg1"  name="CAPITAL TELTWAY BUILDING" type="COMMERCIAL INTERIORS" img={p1}/>
